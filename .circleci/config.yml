@@ -33,8 +33,6 @@ jobs:
               --region us-east-1
       
       # Uncomment the line below if you want to fail the current step
-      - run: return 1
-      - destroy_environment
 
 workflows:
   say-hello-workflow:
